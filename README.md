@@ -1,21 +1,17 @@
-# Proyecto: Facturación MVC
+# Proyecto: POO
 
-Elaborar una aplicación de Facturación en entorno Windows usando la arquitectura MVC. La aplicación debe tener catálogo de Artículos, catálogo de Clientes y la opción de Ventas (Facturación)
+Platilla base para ejercicios de la materia de POO
 
 ## Diagrama de clases
 [Editor en línea](https://mermaid.live/)
 ```mermaid
 ---
-title: MVC
+title: Diagrama de Clases
 ---
 classDiagram
-      direction LR
       class Principal
-      class Modelo
-      class Controlador
-      class Vista
-      Modelo -- Controlador
-      Controlador -- Vista
+      Principal: -atributos
+      Principal: +metodos()
 ```
 [Referencia-Mermaid](https://mermaid.js.org/syntax/classDiagram.html)
 
